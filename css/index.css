@@ -15,12 +15,19 @@ h1{
     margin: 100px auto;
     padding: 40px;
 }
+.stats{
+    display: flex;
+    padding: 20px;
+    margin: 55px 0px 40px 0px;
+    background-color: blueviolet;
+    border-radius: 30px;
+}
 .coin{
     height: 150px;
     width: 150px;
     position: relative;
     margin: 10px auto;
-    /*transform-style: preserve-3d;*/
+    transform-style: preserve-3d;
 }
 .coin img{
     width: 100%;
@@ -33,7 +40,7 @@ h1{
                                     pero al revés (espejo)*/
 }
 .tails{
-    transform: rotate(180deg);
+    transform: rotate(360deg);
 }
 
 @keyframes spinTails{
@@ -53,16 +60,8 @@ h1{
     }
 }
 
-.stats{
-    display: flex;
-    padding: 20px;
-    margin: 55px 0px 40px 0px;
-    background-color: blueviolet;
-    border-radius: 30px;
-}
 #tailsCount{
     margin-left: 55%;
-    border: salmon 1px solid;
 }
 .buttons{
     display: flex;
