@@ -43,7 +43,7 @@ h1{
     transform: rotate(360deg);
 }
 
-@keyframes spinTails{
+@keyframes spinHeads{
     0%{
         transform: rotateX(0);
     }
@@ -51,7 +51,7 @@ h1{
         transform: rotateX(1980deg);
     }
 }
-@keyframes spinHeads{
+@keyframes spinTails{
     0%{
         transform: rotateX(0);
     }
